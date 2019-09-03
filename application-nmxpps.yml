@@ -1,12 +1,12 @@
 spring:
   datasource:
-    sourceone:
+    master:
       jdbc-url: jdbc:mysql://47.94.96.2:3301/nmxpps?useUnicode=true&characterEncoding=utf-8
       username: root
       password: nmxpps
       driver-class-name: com.mysql.jdbc.Driver
       type: com.alibaba.druid.pool.DruidDataSource
-    sourcetwo:
+    slave:
       jdbc-url: jdbc:mysql://47.94.96.2:3302/nmxpps?useUnicode=true&characterEncoding=utf-8
       username: root
       password: nmxpps
