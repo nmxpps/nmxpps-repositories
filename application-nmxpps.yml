@@ -14,7 +14,7 @@ spring:
       type: com.alibaba.druid.pool.DruidDataSource
   redis:
     cluster:
-      nodes: 47.94.96.2:6379,47.94.96.2:6380,47.94.96.2:6381,47.94.96.2:6382,47.94.96.2:6383,47.94.96.2:6384
+      nodes: 172.24.48.132:6379,172.24.48.132:6380,172.24.48.132:6381,172.24.48.132:6382,172.24.48.132:6383,172.24.48.132:6384
 mybatis-plus:
   mapper-locations: classpath:/mybatis-plus/*.xml
   configuration:
