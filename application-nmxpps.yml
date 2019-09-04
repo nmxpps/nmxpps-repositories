@@ -1,13 +1,13 @@
 spring:
   datasource:
     master:
-      jdbc-url: jdbc:mysql://172.17.0.5:3301/nmxpps?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+      jdbc-url: jdbc:mysql://47.94.96.2:3301/nmxpps?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
       username: root
       password: nmxpps
       driver-class-name: com.mysql.jdbc.Driver
       type: com.alibaba.druid.pool.DruidDataSource
     slave:
-      jdbc-url: jdbc:mysql://172.17.0.5:3302/nmxpps?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
+      jdbc-url: jdbc:mysql://47.94.96.2:3302/nmxpps?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false
       username: root
       password: nmxpps
       driver-class-name: com.mysql.jdbc.Driver
